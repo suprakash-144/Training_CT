@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #f0f8ff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+/*  */
+.maincontainer{
+  min-height: 100vh;
+  max-height: 100vh;
+}
+.maincontainer .loginform {
+  width: 80%;
+  height: 50%;
+  background: url("/public/diego-ph-fIq0tET6llw-unsplash.jpg")center center/cover no-repeat;
+ 
+}
+
+
+/*  */
+.edit-form{
+  background-color: rgba(240, 248, 255, 0.886);
+  z-index: 1;
+  display: flex;
+  padding: 1rem;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  min-height: 100%;
+}
+.edit-form .form-control {
+  background-color: oldlace;
+  outline: none;
+  border: none;
+  border: 1px solid rgba(230, 181, 121, 0.856);
+  
+  font-size: large;
+}
+.formsize{
+  width: 25%; 
+  padding: 3rem;
+}
+.formbtn{
+  width: 35%; 
+}
+@media screen and (max-width: 640px) {
+  .formsize{
+    width: 90%;
+    padding: 1rem;
+  }
+  .formbtn{
+    width: 100%; 
+  }
+  
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+.error {
+  font-size: medium;
+  color: rgb(161, 4, 4);
+  user-select: none;
+}
