@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@0;1&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body{
+  background-color: #d6d7db; font-family: "Open Sans", serif;
+}
+
+/*utility classes  */
+.responsive-padding{
+  padding:2rem ;
+}
+
+.mainbody{
+  background-color: #ffffff;
+  border-radius: 25px;
+  -webkit-box-shadow: 10px -1px 17px 4px rgba(0,0,0,0.1);
+-moz-box-shadow: 10px -1px 17px 4px rgba(0,0,0,0.1);
+box-shadow: 10px -1px 17px 4px rgba(0,0,0,0.1);
+}
+.sidebody{
+  background-color: #f7f6f9;
+  border-radius: 0 25px 25px  0 ;
+}
+.cardbody{
+  background-color: #ffffff;
+  border-radius: 15px;-webkit-box-shadow: 10px -1px 5px 4px rgba(56,56,56,0.03);
+  -moz-box-shadow: 10px -1px 5px 4px rgba(56,56,56,0.03);
+  box-shadow: 10px -1px 5px 4px rgba(56,56,56,0.03);
+}
+.title{
+  color: #a2a1a1;
+  font-size: large;
+}
+
+/* Main Card style */
+.centered{
+  font-weight: bolder;
+  color: white;
+  z-index: 2;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.mainimg{
+  height: 10em;
+}
+.cityimg {
+  height: 10em;
+  width: 100%;
+}
+
+
+/*  daily weather section */
+.dailybody{
+  overflow-x: auto;
+}
+.dailybody::-webkit-scrollbar {
+  height: 3px;
+}
+
+.dailybody::-webkit-scrollbar-track {
+  background: #d6d7db;
+}
+.dailybody::-webkit-scrollbar-thumb {
+  background: #888;
+}
