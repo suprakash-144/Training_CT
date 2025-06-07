@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  
+  background-color: #f0f8ff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+/*  */
+
+.maincontainer{
+  min-height: 90vh;
+}
+
+.maincontainer .loginform {
+  width: 80%;
+  background: url("/public/image/diego-ph-fIq0tET6llw-unsplash.jpg")center center/cover no-repeat;
+ 
+}
+
+/* Tasks */
+
+.tasksize{
+  width: 30%;
+  margin: 0.6rem;
+}
+@media screen and (max-width: 640px){
+  .tasksize{
+    width: 85%;
+    margin: 0.6rem;
+  }
+} 
