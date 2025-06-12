@@ -1,0 +1,64 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Playpen Sans Thai", cursive;
+  /* font-style: italic; */
+}
+
+/* Logo parts */
+.logo-font {
+  font-family: "Dancing Script", cursive;
+  font-weight: 700;
+}
+.logo-img {
+  height: 1.6rem;
+}
+.home-img {
+  height: 8rem;
+}
+/* Helper Class */
+.loginform {
+  width: 25%;
+}
+.screenheight {
+  min-height: 92.3vh;
+}
+.pointer {
+  cursor: pointer;
+}
+.pointer:hover {
+  color: skyblue;
+}
+.w-90 {
+  width: 90%;
+}
+.screenwidth {
+  width: 50%;
+}
+.error {
+  color: red;
+}
+.teamcard {
+  width: 30%;
+}
+.f-c-r {
+  flex-direction: row;
+}
+@media screen and (max-width: 980px) {
+  .screenwidth {
+    width: 90%;
+    /* padding: 1rem; */
+  }
+  .loginform {
+    width: 90%;
+  }
+  .teamcard {
+    width: 90%;
+  }
+  .f-c-r {
+    flex-direction: column;
+  }
+}
